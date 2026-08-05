@@ -25,11 +25,12 @@ int main(int argc, char *argv[]) {
     sprintf(saida, "O valor dos juros e %.2f\n", j);
     printf("%s", saida);
 
+    }
+
     FILE *arquivo = fopen("jurossimples.txt", "w");
     if (arquivo != NULL) {
         fprintf(arquivo, "%s", saida);
         fclose(arquivo);
-    }
 
     printf("Criado por Valentina Andrade");
 
