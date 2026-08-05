@@ -27,12 +27,13 @@ int main(int argc, char *argv[]) {
 
     }
 
+    printf("Criado por Valentina Andrade");
+
     FILE *arquivo = fopen("jurossimples.txt", "w");
     if (arquivo != NULL) {
         fprintf(arquivo, "%s", saida);
         fclose(arquivo);
       }
-    printf("Criado por Valentina Andrade");
 
     return 0;
 }
