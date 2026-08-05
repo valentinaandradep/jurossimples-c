@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include function_jurossimples
 
 float jurossimples(float c, float i, float t);
 
