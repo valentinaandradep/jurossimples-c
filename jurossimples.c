@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
     if (arquivo != NULL) {
         fprintf(arquivo, "%s", saida);
         fclose(arquivo);
-
+      }
     printf("Criado por Valentina Andrade");
 
     return 0;
