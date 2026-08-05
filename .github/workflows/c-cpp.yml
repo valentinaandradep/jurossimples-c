@@ -18,7 +18,7 @@ jobs:
         run: cat jurossimples.txt
 
       - name: compilar o arquivo de teste
-        run: gcc test_jurossimples.c -o test_jurossimples -lm
+        run: gcc test_jurossimples.c -o test_jurossimples
 
       - name: executar o arquivo de teste
         run: ./test_jurossimples
