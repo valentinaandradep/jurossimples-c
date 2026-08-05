@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: compilar o programa principal
-        run: gcc jurossimples.c function_jurossimples.c -o jurossimples
+        run: gcc jurossimples.c -o jurossimples
 
       - name: executar o programa principal
         run: ./jurossimples 100 0.5 10
@@ -18,7 +18,7 @@ jobs:
         run: cat jurossimples.txt
 
       - name: compilar o arquivo de teste
-        run: gcc test_jurossimples.c function_jurossimples.c -o test_jurossimples -lm
+        run: gcc test_jurossimples.c -o test_jurossimples -lm
 
       - name: executar o arquivo de teste
         run: ./test_jurossimples
