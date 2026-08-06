@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <math.h>
-
-float jurossimples(float c, float i, float t);
+#include "function_jurossimples.c"
 
 int main(void) {
     assert(fabs(jurossimples(100, 0.5, 10) - 500.0) < 0.01);
