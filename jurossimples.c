@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "function_jurossimples.c"
 
-float jurossimples(float c, float i, float t);
-
 int main(int argc, char *argv[]) {
     float c, i, t, j;
     char saida[100];
